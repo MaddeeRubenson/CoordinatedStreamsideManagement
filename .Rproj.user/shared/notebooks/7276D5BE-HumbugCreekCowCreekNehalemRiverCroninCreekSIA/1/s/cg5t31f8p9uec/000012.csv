@@ -1,0 +1,3 @@
+"0","colnames(exc) <- c(""Station ID"",""Station Description"", ""Min Date"", ""Max Date"", ""Obs"", ""Exceedances"", ""% Exceedance"")"
+"0","exc <- exc[,c(1:5)]"
+"0","kable(exc, format = ""markdown"", padding = 2, digits = 1, caption = ""Total Suspended Solids status and trends"" )"

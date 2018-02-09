@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1516927955899.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "29D245BB",
+    "lastKnownWriteTime" : 1516930365,
+    "last_content_update" : -2147483648,
+    "path" : "N:/Agriculture/Coordinated_Streamside_Management/CoordinatedStreamsideManagement/EightMileSIA.Rmd",
+    "project_path" : "EightMileSIA.Rmd",
+    "properties" : {
+        "cursorPosition" : "365,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

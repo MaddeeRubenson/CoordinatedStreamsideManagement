@@ -1,0 +1,4 @@
+"0","colnames(exc) <- c(""Station ID"", ""Station Description"", ""Obs"", ""Exceedances"", ""Meets b/c %Sat"", ""Min Date"", ""Max Date"", '% Exceedance')"
+"0","if(!is.null(exc)){"
+"0","  kable(exc, format = ""markdown"", padding = 2, digits = 1, caption = ""Dissolved Oxygen status and trends"" )"
+"0","}"

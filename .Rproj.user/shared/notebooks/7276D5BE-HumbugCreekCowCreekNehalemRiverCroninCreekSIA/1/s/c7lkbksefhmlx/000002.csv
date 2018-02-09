@@ -1,0 +1,8 @@
+"0","wq_limited_df <- wq_lim_whole[, c('Waterbody', 'MILES', 'POLLUTANT', 'SEASON', 'Year Assessed', 'CRITERIA', 'Listing Status')]"
+"0","names(wq_limited_df) <- c('Waterbody', 'Miles', 'Pollutant', 'Season', 'Year Assessed', 'Criteria', 'Listing Status')"
+"0","wq_limited_df <- wq_limited_df %>% arrange(desc(Pollutant))"
+"0","wq_limited_df$`Listing Status` <- revalue(wq_limited_df$`Listing Status`, c(""Cat 4A: Water quality limited, TMDL approved"" = ""Cat 4A"","
+"0","                                                                            ""Cat 5: Water quality limited, 303(d) list, TMDL needed"" = ""Cat 5"","
+"0","                                                                            ""TMDL approved"" = ""Cat 4A"","
+"0","                                                                            ""303(d)"" = ""Cat 5""))"
+"0","kable(wq_limited_df, format = ""markdown"", padding = 2)"

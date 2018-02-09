@@ -1,0 +1,8 @@
+"0","stn_to_use<-c(unique(stns$Station_ID))"
+"0","landuse<-stn_nlcd_df%>%"
+"0","  filter(Station_ID %in% stn_to_use) %>%"
+"0","  arrange(desc(PerAgWs))"
+"0","colnames(landuse) <- c(""Station ID"", ""Station Description"", ""Year"", ""Watershed Area (km^2^)"","
+"0","                       ""%Urban"", ""%Forest"", ""%Ag"", ""%Range"", ""%Other"")"
+"0","landuse<-landuse[, - 3]"
+"0","kable(landuse, digits = 0, format = ""markdown"", padding = 2)"

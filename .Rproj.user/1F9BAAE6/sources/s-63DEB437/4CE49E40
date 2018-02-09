@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1516665914610.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "209|25|276|3|\n585|169|676|0|\n682|148|817|0|\n",
+    "hash" : "1842292394",
+    "id" : "4CE49E40",
+    "lastKnownWriteTime" : 1516668945,
+    "last_content_update" : -2147483648,
+    "path" : "N:/Agriculture/Coordinated_Streamside_Management/CoordinatedStreamsideManagement/PistolSIA.Rmd",
+    "project_path" : "PistolSIA.Rmd",
+    "properties" : {
+        "cursorPosition" : "681,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "678",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
